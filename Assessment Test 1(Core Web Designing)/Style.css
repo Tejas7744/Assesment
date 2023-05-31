@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    color: brown;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 7px;
+}
+.regform{
+    width: 100%;
+    border: 2px solid none;
+    color: black;
+    background-color: rgb(128, 128, 128, 0.15);
+}
+.row{
+    display: flex;
+    padding: 05px;
+}
+.row .col-1{
+    flex: 1;
+}
+.row .col-2{
+    flex: 7;
+}
+.row .col-2 input{
+    height: 30px;
+    width: 50%;
+}
+.row .go-1{
+    flex: 1;
+}
+.row .go-2{
+    flex: 7;
+}
+.row .col-1 button{
+    height: 40px;
+    width: 110px;
+    color: white;
+    background-color: green;
+    border: 2px solid transparent;
+    font-weight: 600;
+}
